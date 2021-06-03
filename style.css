@@ -1,0 +1,3239 @@
+@font-face {
+  font-family: 'Droid Arabic Naskh';
+  font-style: normal;
+  src: url(fonts/DroidNaskh-Regular.eot);
+  src: url(fonts/Naskh-Regular.eot?#iefix) format('embedded-opentype'),
+       url(fonts/DroidNaskh-Regular.woff2) format('woff2'),
+       url(fonts/DroidNaskh-Regular.woff) format('woff'),
+       url(fonts/DroidNaskh-Regular.ttf) format('truetype');
+}
+body{
+background-color:#ccfec8;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 0px 0px 2px #413659;
+font-weight:bold;
+}
+@font-face {
+  font-family: 'Droid Arabic Naskh';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/DroidNaskh-Regular.eot);
+  src: url(fonts/Naskh-Regular.eot?#iefix) format('embedded-opentype'),
+       url(fonts/DroidNaskh-Regular.woff2) format('woff2'),
+       url(fonts/DroidNaskh-Regular.woff) format('woff'),
+       url(fonts/DroidNaskh-Regular.ttf) format('truetype');
+}
+#img{
+border-radius:50%;
+margin:8px 6px 0px 0px;
+}
+aside{
+width:22%;
+float:right;
+background-color:#dbe145;
+}
+aside section{
+background-color:#deeb74;
+padding:8px;
+margin:5px;
+height: 557px;
+}
+aside section h3{
+background-color:#7c8102;
+padding:0px;
+}
+aside section h4{
+padding:0px;
+text-align:center;
+margin-top:-12px;
+font-weight: bold;
+font-family: 'Lobster', cursive;
+text-shadow: 1px 1px 1px #413659;
+}
+/* اكواد تنسيق الصفحة الرئيسية */
+h1{
+color:#9d0a0a;
+}
+.clearfix{
+clear:both;
+}
+.footer-copyright1{
+border-radius:7px 7px 7px 7px;
+padding: 10px;
+border: 2px solid #000;
+width: 97%;
+height: 22px;
+margin-top: 7px;
+margin-right:4px;
+color: #b5b5b5;
+text-align: center;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 0px 0px 3px #29282c;
+text-decoration:blink;
+font-weight:bold;
+}
+.qaab_in{
+margin:66px 20px 0px 0px ;
+height:850px;
+width: 96%;
+background-color:#256d06;
+border-radius: 10px;
+box-shadow:2px 2px 3px 3px rgba(0,0,0,0.3);
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+background-repeat: no-repeat;
+background-size:100% 851px;
+background-image:url(img/ss2.jpg);
+}
+#st{
+border-radius:100px 100px 100px 100px;
+height:163px;
+width:580px;
+}
+#div_st{
+background-color:#6c7ee1;
+margin:120px 33px 33px 0px;
+padding:15px;
+width:655px;
+border-radius:10px;
+height:240px;
+color: #000000;
+text-align: center;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 0px 0px 2px #e7aba5;
+text-decoration:blink;
+box-shadow:0px 0px 0px 3px #a2aef0;
+}
+#div_st:hover{
+background-color:#6c7ee1;
+  }
+#div_ad{
+background-color:#378a07;
+margin:100px 33px 33px 0px;
+padding:15px;
+width:655px;
+border-radius:10px;
+height:240px;
+color: #000000;
+text-align: center;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 0px 0px 2px #e7aba5;
+box-shadow:0px 0px 0px 3px #a1e27c;
+}
+/*--------end-----------*/
+/* اكواد تنسيق صفحة دخول الطالب */
+#submit_en_st{
+background-color:#000;
+box-shadow:0px 0px 0px 2px #8aee9c;
+border-radius:15px;
+width:150px;
+height:50px;
+margin:70px 80px 0px 0px;
+font-size:26px;
+color:#edbf01;
+border:2px solid #666;
+}
+#textfield_en_st{
+background-color:#fff;
+border-radius:15px;
+width:300px;
+height:40px;
+font-size:18px;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 0px 0px 2px #413659;
+border:2px solid #b1b5b2;
+margin-top:28px;
+}
+#textfield_en_st:focus{
+color:#495057;
+background-color:#fff;
+border-color:#13ca33;
+outline:0;
+box-shadow:0 0 0 .2rem rgba(0,0,0,.60)
+}
+#submit_en_st:focus{
+color:#000;
+background-color:#edbf01;
+border:2px solid #8aee9c;
+outline:0;
+box-shadow:0 0 0 2px #666;
+}
+#textfield_en_st::placeholder
+{
+color:#f4cccc;
+opacity:.50;
+font-size:14px;
+}
+.labe_en_st{
+color:#edbf01;
+background-color:#89e76b;
+border-radius:10px;
+width:180px;
+text-align:center;
+}
+.footer-copyright1_en_st{
+border-radius: 7px 7px 7px 7px;
+padding: 10px;
+border: 2px solid #000;
+width: 97%;
+height: 22px;
+margin-top:7px;
+margin-right:4px;
+color: #b5b5b5;
+text-align: center;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 0px 0px 3px #29282c;
+text-decoration:blink;
+font-weight:bold;
+}
+/*-----------end-------------*/
+/* اكواد الصفحة الرئيسية للطالب */
+#textfield_st{
+background-color:#fff;
+box-shadow:0px 0px 0px 3px rgba(0,0,0,0.5);
+border-radius:15px;
+width:300px;
+height:45px;
+outline:4px;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 0px 0px 2px #413659;
+border:2px solid #b1b5b2;
+margin-right:5px;
+}
+#textfield_st:hover{
+color:#000;
+border:2px solid #b1b5b2;
+box-shadow:0px 0px 0px 3px #0a916b;
+}
+#post_st{
+position:absolute;
+width:76%;
+float:left;
+background-image: url(img/ss.jpg);
+background-repeat: no-repeat;
+background-size:100% 536px;
+height:540px;
+border-radius: 6px;
+margin:4px 215px 0px 0px;
+background-color:#858634;
+border:2px solid #7e7272;
+}
+#block_st{
+background-color:#828409;
+margin: 25px 5px;
+height: 130px;
+margin-bottom:-10px;
+padding: 2px;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px  #a7a004;
+color:#bb270a;
+}
+#out_st{
+background-color:#635f08;
+margin:59px -3px 0px 0px;
+height:30px;
+width:172px;
+border-radius:5px;
+padding:9px;
+border:1px solid #000;
+}
+#out_st:hover{
+border:1px solid #fff;
+box-shadow:0px 0px 0px 3px rgba(0,0,0,0.3);
+}
+#block_st:hover{
+background-color:#5df705;
+margin: 25px 5px;
+height: 130px;
+padding: 2px;
+margin-bottom:-10px;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px #0fb716;
+color:#e9301a;
+outline:0px;
+}
+.footer-copyright1_st{
+border-radius:7px 7px 7px 7px;
+padding: 10px;
+border: 2px solid #000;
+width: 98%;
+height: 22px;
+margin: 7px -2px 0px 0px ;
+color: #b5b5b5;
+text-align: center;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 0px 0px 3px #29282c;
+text-decoration:blink;
+font-weight:bold;
+}
+.ff_st{
+background-color:#e3df2c;
+width:60%;
+padding:33px;
+height:255px;
+margin:33px 0px 0px 0px;
+border-radius:10px;
+overflow:auto;
+}
+#en_test_st{
+background-color:
+rgba(50,50,50,0.5);
+width:92%;
+padding:3px;
+height:355px;
+margin:23px 0px 0px 0px;
+text-align:center;
+border-radius:30px 30px 30px 30px;
+overflow:auto;
+font-size:35px;
+color:#73ec53;
+}
+#en_test2_st{
+background-color:#000;
+width:600px;
+padding:3px;
+height:80px;
+margin:53px 1px 0px 0px;
+text-align:center;
+border-radius:15px;
+overflow:auto;
+font-size:35px;
+color:#edbf01;
+text-align:center;
+display:inline-block;
+outline:4px;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 1px 1px 1px #413659;
+border:2px solid #b1b5b2;
+}
+#en_test2_st:hover{
+color:#000;
+background-color:#edbf01;
+border:2px solid #b1b5b2;
+box-shadow:0px 0px 0px 3px #0a916b;
+}
+.admin_table_stu_st{
+margin:2px 1px -46px 0px;
+background-color: rgba(244,355,0, 0.66);
+width: 602px;
+height:169px;
+border-radius: 15px 15px 15px 15px;
+padding: 10px;
+color:#edbf01;
+}
+#y2_st{
+display:inline-block;
+background-color:#808409;
+border-radius:15px 0px 0px 15px;
+padding:2px;
+margin-bottom:-10px;
+height:25px;
+margin-bottom:-10px;
+border:1px solid #e4ee87;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+}
+#y2_st:hover{
+background-color:#a8f574;
+border:1px solid #57ac41;
+color:#9d0a0a;
+}
+#y_st{
+display:inline-block;
+background-color:#9e9c4a;
+width:743px;
+border-radius:10px;
+padding:2px;
+border-radius:15px 0px 0px 15px;
+height:32px;
+}
+#th_st{
+border:1px solid #000;
+background:linear-gradient(rgba(179, 70, 70,0.60),#fff);
+width:460px;
+height:34px;
+margin:0px -8px;
+color:#b95470;
+}
+#td_st{
+border: solid 1px #a5a1a1;
+height:26px;
+text-align:center;
+height:50px;
+}
+#tr_st{
+border: solid 1px #c9c9c9;
+height:26px;
+}
+#table_st{
+border-collapse:collapse;
+width: 94%;
+height:100px;
+background-color:#fff;
+margin:0px 20px 0px 0px;
+font-size:20px;
+font-weight:bold;
+border-radius:29px;
+}
+#block2_st{
+background-color:#ebf4bb;
+margin: 16px 26px 3px;
+height: 54px;
+padding: 3px;
+width:700px;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+color:#000;
+font-size:30px;
+text-align:center;
+overflow-y:auto;
+}
+#td2_st{
+border:2px solid #d4113a ;
+background-color: rgba(255, 255, 255, 0.15);
+font-size: 16px;
+height:20px;
+text-align:center;
+height:50px;
+}
+#tr2_st{
+border:2px solid #d4113a;
+background-color: rgba(255, 255, 255, 0.15);
+font-size: 16px;
+height:20px;
+}
+#table2_st{
+border:1px;
+border-collapse:collapse;
+width: 101%;
+height:100px;
+background: rgba(0, 0, 0, 0);
+}
+.qaab7_st{
+margin:55px 10px 0px 0px ;
+height:260px;
+width: 82%;
+border-radius: 20px;
+box-shadow:0px 0px 0px 2px #256d06;
+color:#333;
+font-size: 23px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #000;
+background-repeat: no-repeat;
+background-color:rgba(0,0,0, 0.30);
+background-size:100% 501px;
+}
+#t_st{
+text-align:center;
+background-color:#888;
+padding:33px;
+width:370px;
+border-radius:10px;
+margin:20px 160px;
+opacity:0.90;
+font-size:20px;
+}
+/*-----------end------------*/
+/* اكواد تنسيق صفحة عرض نتيجة الطالب */
+.qaab_deg{
+padding:9px;
+margin:40px 4px 0px 0px;
+width:97%;
+background-color:#e8efe4;
+border-radius: 10px;
+box-shadow:5px 5px 10px 7px #256d06;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #fff;
+background-repeat: no-repeat;
+background-image:url("img/rr.webp");
+background-size:100% 100%;
+visibility:visible;
+color:#8b0808;
+}
+#qu_deg{
+background-color:#a3f075;
+width:97%;
+height:40px;
+padding:5px;
+margin:3px;
+border-radius:10px 10px 0px 0px;
+}
+#ans_deg{
+width:98%;
+font-size:26px;
+margin-top:5px;
+padding:8px;
+height:50px;
+color:#d85024;
+background-color:#9e9fe5;
+border-radius:10px;
+font-weight:bold;
+overflow:scroll;
+  }
+#summary_deg{
+outline-color:#059855;
+  }
+#header2_deg{
+margin:19px 20px 0px 0px;
+width:94%;
+background-color:#059855;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+background-repeat:no-repeat;
+background-size:100% 200px;
+border:5px double #000;
+overflow:scroll;
+}
+/*--------------end---------*/
+/* اكواد تنسيق صفحة عرض جدول امتحانات الطالب */
+#th_suvi{
+border:1px solid #000;
+background:linear-gradient(rgba(179, 70, 70,0.60),#fff);
+width:460px;
+height:34px;
+margin:0px -8px;
+}
+#td_suvi{
+border: solid 1px #a5a1a1;
+height:26px;
+text-align:center;
+height:50px;
+overflow:auto;
+}
+#tr_suvi{
+border: solid 1px #c9c9c9;
+height:26px;
+}
+#table_suvi{
+border-collapse:collapse;
+width: 97%;
+height:100px;
+background-color:#fff;
+margin:6px 14px 0px 0px;
+font-size:20px;
+font-weight:bold;
+border-radius:29px;
+text-align:center;
+}
+#tr_suvi:nth-child(2n + 1) {
+background-color: rgba(144, 144, 144, 0.35);
+}
+.date_suvi{
+color:#6c95e7;
+}
+.name_suvi{
+color:#57aa10;
+}
+.deg_suvi{
+color:#b95470;
+}
+.time_suvi{
+color:#d4aa23;
+}
+.case_suvi{
+color:#8d8283;
+}
+.hours{
+color:blue;
+}
+.minuts{
+color:green;
+}
+.sconds{
+color:red;
+}
+#t_suvi{
+text-align:center;
+background-color:#888;
+padding:33px;
+width:370px;
+border-radius:10px;
+margin:90px 130px;
+opacity:0.90;
+font-size:20px;
+overflow-y:scroll ;
+overflow-x:scroll;
+}
+.timeAgo{
+display:inline-block;
+}
+#qu{
+background-color:#caefb4;
+width:660px;
+height:40px;
+padding:5px;
+margin:3px;
+
+}
+#ans{
+font-size:26px;
+margin-top:5px;
+padding:8px;
+height:50px;
+color:#d85024;
+background-color:#9e9fe5;
+border-radius:10px;
+font-weight:bold;
+overflow:scroll;
+}
+#ans2{
+margin:0px 0px 30px;
+font-size:14px;
+background-color:#cbc2c2;
+overflow:scroll;
+padding:7px;
+border-radius:5px;
+width:97%;
+}
+#ans3{
+margin:0px 0px 30px;
+font-size:14px;
+background-color:#c2bfe9;
+overflow:scroll;
+padding:7px;
+border-radius:5px;
+color:#434378;
+width:97%;
+}
+#ans4{
+margin:0px 0px 30px;
+font-size:14px;
+background-color:#ebb0c2;
+overflow:scroll;
+padding:7px;
+color:#f97c7c;
+border-radius:5px;
+width:97%;
+}
+#dit2{
+background-color:#ddd;
+border:1px solid #555;
+border-radius:15px;
+margin:0px 10px;
+padding:5px;
+margin:4px;
+}
+#dit3{
+background-color:#ddd;
+border:1px solid #555;
+border-radius:15px;
+padding:5px;
+margin:5px;
+}
+#back{
+background-color:#0cad79;
+padding:10px;
+width:322px;
+height:40px;
+border-radius:10px;
+margin:0px 22px;
+text-align:center;
+display:inline-block;
+}
+#y3_vits{
+display:inline-block;
+}
+#g_vits{
+display:inline-block;
+}
+#n_vits{
+display:inline-block;
+margin-bottom:4px;
+margin-top:-12px;
+}
+#header2_vits{
+margin:19px 20px 0px 0px;
+width:94%;
+height:500px;
+background-color:#989805;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+background-repeat:no-repeat;
+background-size:100% 200px;
+border:5px double #000;
+overflow:scroll;
+}
+/*-----------end-------------*/
+/* اكواد تنسيق صفحة عرض مواد الطالب */
+#id{
+color:#6c95e7;
+}
+#name{
+color:#57aa10;
+}
+#Tea{
+color:#b95470;
+}
+#time{
+color:#d4aa23;
+}
+#table_vima{
+border-collapse:collapse;
+width: 94%;
+height:100px;
+background-color:#fff;
+margin:0px 20px 0px 0px;
+font-size:20px;
+font-weight:bold;
+border-radius:29px;
+}
+#t_vima{
+text-align:center;
+background-color:#888;
+padding:33px;
+width:370px;
+border-radius:10px;
+margin:190px 160px;
+opacity:0.90;
+font-size:20px;
+overflow-y:scroll ;
+overflow-x:scroll;
+}
+/*--------------end-----------*/
+/* اكواد تنسيق صفحة عرض الملف الاكاديمي */
+.name{
+color:#6c95e7;
+}
+.set{
+color:#57aa10;
+}
+.mat{
+color:#b95470;
+}
+.mo{
+color:#d4aa23;
+}
+.mok{
+color:#8d8283;
+}
+#th{
+border:1px solid #000;
+background:linear-gradient(rgba(179, 70, 70,0.60),#fff);
+width:460px;
+height:34px;
+margin:0px -8px;
+}
+#td{
+border: solid 1px #a5a1a1;
+height:26px;
+text-align:center;
+height:50px;
+}
+#tr{
+border: solid 1px #c9c9c9;
+height:26px;
+}
+#table{
+border-collapse:collapse;
+width: 97%;
+height:100px;
+background-color:#fff;
+margin:0px 14px 0px 0px;
+font-size:20px;
+font-weight:bold;
+border-radius:29px;
+text-align:center;
+}
+#table #tr:nth-child(2n + 1) {
+background-color: rgba(144, 144, 144, 0.35);
+}
+/*---------------end------------ */
+/* اكواد تنسيق صفحة الملف الشخصي للطالب */
+#id{
+color:#8e81e5;
+}
+#name_st{
+color:#12ea0e;
+}
+#level{
+color:#eab321;
+}
+#set{
+color:#d98fc5;
+}
+#class{
+color:#e27870;
+}
+#po_st{
+border-radius:50%;
+margin-right:200px;
+margin-top:7px;
+}
+/*-------------end---------------*/
+/* اكواد تنسيق صفحة اختيار مستوي المسؤول */
+.admin_table{
+margin:53px 58px -46px -8px;
+background-color: rgba(11, 113, 65, 0.66);
+width: 702px;
+height:269px;
+border-radius: 15px 15px 15px 15px;
+padding: 50px;
+}
+#submit_en_ad{
+background-color:#18a70c;
+box-shadow:0px 0px 0px 3px rgba(0,0,0,0.3);
+border-radius:10px;
+width:400px;
+font-size:25px;
+height:70px;
+color:#9d0a0a;
+text-align: center;
+font-weight: bold;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 1px 1px 1px #686472;
+border:2px solid #37e708;
+margin-right:44px;
+}
+#submit_en_ad:focus{
+outline:0;
+background-color:#9d0a0a;
+color:#18a70c;
+border:2px solid rgba(0,0,0,0.3);
+box-shadow:0px 0px 0px 3px rgba(0,255,0,0.3);
+}
+.h_en_ad{
+color:#9d0a0a;
+text-align: center;
+font-weight: bold;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 1px 1px 1px #7f0b07;
+}
+.footer-copyright1_en_ad{
+border-radius: 7px 7px 7px 7px;
+padding: 10px;
+border: 2px solid #000;
+width: 97%;
+height: 22px;
+margin-top:7px;
+margin-right:4px;
+color: #b5b5b5;
+text-align: center;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 0px 0px 3px #29282c;
+text-decoration:blink;
+font-weight:bold;
+}
+/*------------end----------*/
+/* اكواد تنسيق صفحة دخول العميد */
+#submit_admin{
+background-color:#18a70c;
+box-shadow:0px 0px 0px 3px #8aee9c;
+border-radius:15px;
+width:160px;
+height:50px;
+margin:70px 80px 0px 0px;
+font-size:26px;
+color:#9d0a0a;
+border:2px solid rgba(0,0,0,.50);
+font-weight: bold;
+font-family: 'Lobster', cursive;
+text-shadow: 1px 1px 1px #413659;
+}
+#textfield_admin{
+background-color:#fff;
+border-radius:15px;
+width:300px;
+height:40px;
+font-size:18px;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 1px 1px 1px #413659;
+border:2px solid #b1b5b2;
+margin-top:28px;
+}
+#textfield_admin:focus{
+color:#495057;
+background-color:#fff;
+border-color:#13ca33;
+outline:0;
+box-shadow:0 0 0 .2rem rgba(0,0,0,.60)
+}
+#submit_admin:focus{
+color:#18a70c;
+background-color:#9d0a0a;
+border:2px solid #8aee9c;
+outline:0;
+box-shadow:0 0 0 .2rem rgba(0,0,0,.50);
+}
+#textfield_admin::placeholder{
+color:#b0b1b3;
+opacity:.50;
+font-size:14px;
+}
+.footer-copyright1_admin{
+border-radius: 7px 7px 7px 7px;
+padding: 10px;
+border: 2px solid #000;
+width: 97%;
+height: 22px;
+margin-top: 7px;
+font-weight:bold;
+margin-right:4px;
+color: #b5b5b5;
+text-align: center;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 0px 0px 3px #29282c;
+text-decoration:blink;
+font-weight:bold;
+}
+.labe_admin{
+color:#9d0a0a;
+background-color:#05f446;
+border-radius:10px;
+width:180px;
+text-align:center;
+height:42px;
+}
+/*-----------end---------*/
+/* اكواد تنسيق الصفحة الرئيسية للعميد */
+#y2_ad{
+display:inline-block;
+background-color:#128409;
+border-radius:15px 0px 0px 15px;
+padding:2px;
+margin-bottom:-10px;
+height:25px;
+margin-bottom:-10px;
+border:1px solid #8eee87;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+}
+#y2_ad:hover{
+background-color:#f5f574;
+border:1px solid #a8ac41;
+color:#9d0a0a;
+}
+#y_ad{
+display:inline-block;
+background-color:#4a9e4a;
+width:743px;
+border-radius:10px;
+padding:2px;
+border-radius:15px 0px 0px 15px;
+height:32px;
+}
+#post_ad{
+position:absolute;
+width:76%;
+float:left;
+background-image: url(img/ss.jpg);
+background-repeat: no-repeat;
+background-size:100% 536px;
+height:540px;
+border-radius: 6px;
+margin:4px 215px 0px 0px;
+border:2px solid #7e7272;
+background-color:#348636;
+}
+#block_ad{
+background-color:#128409;
+margin: 25px 5px;
+margin-bottom:-10px;
+height: 126px;
+padding: 5px;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+}
+#out_ad{
+background-color:#186308;
+margin:59px 0px;
+height:30px;
+width:170px;
+border-radius:5px;
+padding:9px;
+border:1px solid #000;
+}
+#out_ad:hover{
+border:1px solid #fff;
+box-shadow:0px 0px 0px 3px rgba(0,0,0,0.3);
+}
+#block_ad:hover{
+background-color:#f5f574;
+box-shadow:5px 5px 5px 5px #c6b70e;
+}
+.footer-copyright1_ad{
+border-radius: 7px 7px 7px 7px;
+padding: 10px;
+border: 2px solid #000;
+width: 98%;
+height: 22px;
+margin: 7px -3px 0px 0px;
+color: #b5b5b5;
+text-align: center;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 0px 0px 3px #29282c;
+text-decoration:blink;
+font-weight:bold;
+}
+#img2{
+border-right:10px;
+margin-top:8px;
+}
+#aside_ad{
+width:22%;
+float:right;
+background-color:#45e155;
+}
+#section_ad{
+background-color:#76eb74;
+padding:8px;
+margin:5px;
+height: 557px;
+}
+#h3_ad{
+background-color:#02812e;
+padding:0px;
+}
+#h4_ad{
+padding:0px;
+text-align:center;
+}
+#h4_ad{
+color:#9d0a0a;
+margin-top:3px;
+font-weight: bold;
+font-family: 'Lobster', cursive;
+text-shadow: 1px 1px 1px #413659;
+}
+#h4_ad:hover{
+background-color:#f5f574;
+}
+/*------------end-----------*/
+/* اكواد تنسيق صفحة اضافة استاذ */
+#submit_adus{
+background-color:#18a70c;
+box-shadow:0px 0px 0px 3px #8aee9c;
+border-radius:15px;
+width:160px;
+height:50px;
+margin:33px 25px 0px 0px;
+font-size:26px;
+color:#9d0a0a;
+border:2px solid rgba(0,0,0,.50);
+font-weight: bold;
+font-family: 'Lobster', cursive;
+text-shadow: 1px 1px 1px #413659;
+}
+#textfield_adus{
+background-color:#fff;
+border-radius:15px;
+width:300px;
+height:40px;
+font-size:18px;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 1px 1px 1px #413659;
+border:2px solid #b1b5b2;
+}
+#textfield_adus:focus{
+color:#495057;
+background-color:#fff;
+border-color:#13ca33;
+outline:0;
+box-shadow:0 0 0 .2rem rgba(0,0,0,.60)
+}
+#submit_adus:focus{
+color:#18a70c;
+background-color:#9d0a0a;
+border:2px solid #8aee9c;
+outline:0;
+box-shadow:0 0 0 .2rem rgba(0,0,0,.50);
+}
+#textfield_adus::placeholder{
+color:#b0b1b3;
+opacity:.50;
+font-size:14px;
+}
+.labe_adus{
+color:#9d0a0a;
+background-color:#05f446;
+border-radius:10px;
+width:190px;
+}
+#h4_ad:hover{
+background-color:#f5f574;
+}
+/*-----------end-----------*/
+/* اكواد تنسيق صفحة عرض بيانات الاساتذة */
+#del_ad{
+color:#fff;
+background-color:#e20202;
+width:120px;
+border-radius:10px;
+border:2px solid #fff;
+font-weight: bold;
+font-family:"Lobster", cursive;
+text-shadow: 1px 1px 1px #413659;
+padding:3px;
+height:35px;
+  }
+#del_ad:focus{
+background-color:#e33434;
+border:2px solid #fff;
+outline:0;
+box-shadow:0 0 0 .2rem #ea5656;
+color:#fff;
+}
+#up_ad{
+color:#fff;
+background-color:#1fab09;
+width:120px;
+border-radius:10px;
+border:2px solid #fff;
+font-weight: bold;
+font-family:"Lobster", cursive;
+text-shadow: 1px 1px 1px #413659;
+padding:3px;
+height:35px;
+  }
+#up_ad:focus{
+background-color:#3ad423;
+border:2px solid #fff;
+outline:0;
+box-shadow:0 0 0 .2rem #6dce5e;
+color:#fff;
+}
+#id_ad{
+color:#6c95e7;
+}
+#name_ad{
+color:#57aa10;
+}
+#level_ad{
+color:#b95470;
+}
+#pass_ad{
+color:#d4aa23;
+}
+#am_ad{
+color:#8d8283;
+}
+#table_ad{
+border-collapse:collapse;
+width: 97%;
+height:100px;
+background-color:#fff;
+margin:6px 14px 0px 0px;
+font-size:20px;
+font-weight:bold;
+border-radius:29px;
+text-align:center;
+}
+.th_ad{
+border:1px solid #000;
+background:linear-gradient(rgba(179, 70, 70,0.60),#fff);
+width:460px;
+height:34px;
+margin:0px -8px;
+}
+.td_ad{
+border: solid 1px #a5a1a1;
+height:26px;
+text-align:center;
+height:50px;
+}
+.tr_ad{
+border: solid 1px #c9c9c9;
+height:26px;
+}
+#table_ad .tr_ad:nth-child(2n + 1) {
+background-color: rgba(144, 144, 144, 0.35);
+}
+#post_ad2{
+position:absolute;
+width:76%;
+float:left;
+background-image: url(img/ss.jpg);
+background-repeat: no-repeat;
+background-size:100% 536px;
+height:540px;
+border-radius: 6px;
+margin:4px 215px 0px 0px;
+border:2px solid #7e7272;
+background-color:#348636;
+overflow-x:scroll;
+}
+/*------------end--------------*/
+/* اكواد تنسيق صفحة تعديل بيانات الاستاذ */
+#submit_up{
+background-color:#18a70c;
+box-shadow:0px 0px 0px 3px #8aee9c;
+border-radius:15px;
+width:160px;
+height:50px;
+margin:29px 25px 0px 0px;
+font-size:26px;
+color:#9d0a0a;
+border:2px solid rgba(0,0,0,.50);
+font-weight: bold;
+font-family: 'Lobster', cursive;
+text-shadow: 1px 1px 1px #413659;
+}
+#textfield_up{
+background-color:#fff;
+border-radius:15px;
+width:300px;
+height:40px;
+font-size:18px;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 0px 0px 2px #413659;
+border:2px solid #b1b5b2;
+}
+#textfield_up:focus{
+color:#495057;
+background-color:#fee31f;
+border:2px solid #13ca33;
+outline:0;
+box-shadow:0 0 0 .2rem rgba(0,0,0,.80)
+}
+#submit_up:focus{
+color:#18a70c;
+background-color:#9d0a0a;
+border:2px solid #8aee9c;
+outline:0;
+box-shadow:0 0 0 .2rem rgba(0,0,0,.50);
+}
+#textfield_up::placeholder{
+color:#b0b1b3;
+opacity:.50;
+font-size:14px;
+}
+.labe1_up{
+color:#9d0a0a; background-color:#05f446;
+border-radius:10px;
+width:190px;
+}
+#h4_up:hover{
+background-color:#f5f574;
+}
+/*----------end---------*/
+/* اكواد تنسيق صفحة الملف الشخصي للمسؤول */
+.th_po1{
+border:1px solid #000;
+background-color:#fff;
+width:40%;
+height:50px;
+margin:0px -8px;
+text-align:center;
+font-weight:bold;
+}
+.td_po1{
+border: solid 1px #a5a1a1;
+width:50%;
+text-align:center;
+height:50px;
+}
+#tr_po1{
+border: solid 1px #c9c9c9;
+}
+#table_po1{
+border-collapse:collapse;
+width:80%;
+background-color:#fff;
+margin:-50px 2px 0px 0px;
+font-weight:bold;
+}
+#tr_po1:nth-child(2n + 1) {
+background-color: rgba(144, 144, 144, 0.35);
+}
+.th_po1:nth-child(2n + 1) {
+background:linear-gradient(rgba(179, 70, 70,0.60),#fff);
+}
+#id_po1{
+color:#8e81e5;
+}
+#name_po1{
+color:#12ea0e;
+}
+#level_po1{
+color:#eab321;
+}
+#pass_po1{
+color:#d98fc5;
+}
+#class_po1{
+color:#e27870;
+}
+#h4_po1{
+color:#9d0a0a;
+margin-top:3px;
+}
+/*---------------end--------------*/
+/* اكواد تنسيق صفحة تعديل بيانات المسؤول */
+#submit_myup{
+background-color:#18a70c;
+box-shadow:0px 0px 0px 3px #8aee9c;
+border-radius:15px;
+width:160px;
+height:50px;
+margin:80px 25px 0px 0px;
+font-size:26px;
+color:#9d0a0a;
+border:2px solid rgba(0,0,0,.50);
+font-weight: bold;
+font-family: 'Lobster', cursive;
+text-shadow: 1px 1px 1px #413659;
+}
+#textfield_myup{
+background-color:#fff;
+border-radius:15px;
+width:300px;
+height:40px;
+font-size:18px;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 1px 1px 1px #413659;
+border:2px solid #b1b5b2;
+}
+#textfield_myup:focus{
+color:#495057;
+background-color:#fee31f;
+border:2px solid #13ca33;
+outline:0;
+box-shadow:0 0 0 .2rem rgba(0,0,0,.80)
+}
+#submit_myup:focus{
+color:#18a70c;
+background-color:#9d0a0a;
+border:2px solid #8aee9c;
+outline:0;
+box-shadow:0 0 0 .2rem rgba(0,0,0,.50);
+}
+#textfield_myup::placeholder
+ {
+color:#b0b1b3;
+opacity:.50;
+font-size:14px;
+}
+.labe1_myup{
+color:#9d0a0a; background-color:#05f446;
+border-radius:10px;
+width:180px;
+}
+#h4_myup{
+color:#9d0a0a;
+margin-top:3px;
+}
+#h4_myup:hover{
+background-color:#f5f574;
+}
+/*---------------end-------------*/
+/* اكواد تنسيق صفحة اضافة مادة */
+#viwe9{
+background-color:#128409;
+margin: 8px 12px;
+height: 100px;
+padding: 2px;
+width:220px;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+text-align:center;
+display:inline-block;
+}
+.viwe9{
+display:inline-block;
+}
+#viwe2{
+background-color:#128409;
+margin: 8px 12px;
+height: 100px;
+padding: 2px;
+width:220px;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+text-align:center;
+display:inline-block;
+}
+.viwe2{
+display:inline-block;
+  }
+#viwe3{
+background-color:#128409;
+margin: 8px 12px;
+height: 100px;
+padding: 2px;
+width:220px;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+text-align:center;
+display:inline-block;
+}
+.viwe3{
+display:inline-block;
+  }
+#viwe4{
+background-color:#128409;
+margin: 8px 12px;
+height: 100px;
+padding: 2px;
+width:220px;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+text-align:center;
+display:inline-block;
+}
+.viwe4{
+display:inline-block;
+  }
+#viwe5{
+background-color:#128409;
+margin: 8px 12px;
+height: 100px;
+padding: 2px;
+width:220px;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+text-align:center;
+display:inline-block;
+}
+.viwe5{
+display:inline-block;
+  }
+#viwe6{
+background-color:#128409;
+margin: 8px 12px;
+height: 100px;
+padding: 2px;
+width:220px;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+text-align:center;
+display:inline-block;
+}
+.viwe6{
+display:inline-block;
+  }
+#viwe7{
+background-color:#128409;
+margin: 8px 12px;
+height: 100px;
+padding: 2px;
+width:220px;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+text-align:center;
+display:inline-block;
+}
+.viwe7{
+display:inline-block;
+  }
+#viwe8{
+background-color:#128409;
+margin: 8px 12px;
+height: 100px;
+padding: 2px;
+width:220px;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+text-align:center;
+display:inline-block;
+}
+.viwe8{
+display:inline-block;
+}
+#v{
+background-color:#128409;
+width:400px;
+border-radius:12px;
+}
+/*--------------end---------*/
+/* اكواد تنسيق صفحة اضافة امتحان */
+#viwe_adta{
+background-color:#128409;
+margin: 8px 0px;
+height: 100px;
+padding: 16px;
+width:270px;
+margin:12px 10px 0px 0px ;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px #f7dede;
+text-align:center;
+color:#eee2e2;
+font-weight:bold;
+font-size:30px;
+}
+#viwe_adta:hover{
+background-color:#f5f574;
+width:170px;
+margin:12px 5px 0px 0px;
+text-decoration:underline;
+color:#000;
+}
+#submit_adta{
+background-color:#18a70c;
+box-shadow:0px 0px 0px 3px #8aee9c;
+border-radius:15px;
+width:160px;
+height:50px;
+margin:35px 25px 0px 0px;
+font-size:26px;
+color:#9d0a0a;
+border:2px solid rgba(0,0,0,.50);
+font-weight: bold;
+font-family: 'Lobster', cursive;
+text-shadow: 1px 1px 1px #413659;
+}
+#textfield_adta{
+background-color:#fff;
+border-radius:15px;
+width:300px;
+height:40px;
+font-size:22px;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 1px 1px 1px #413659;
+border:2px solid #b1b5b2;
+-webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  padding: -2em 1.5em 0.3em 0.6em;
+  background-repeat: no-repeat;
+  background-position: right 5px center;
+  background-size: 1em;
+  background-image: url("http://www.clipartbest.com/cliparts/ncB/75y/ncB75yaji.jpeg");
+}
+#textfield_adta:focus{
+color:#495057;
+background-color:#fff;
+border-color:#13ca33;
+outline:0;
+box-shadow:0 0 0 .2rem rgba(0,0,0,.60)
+}
+#submit_adta:focus{
+color:#18a70c;
+background-color:#9d0a0a;
+border:2px solid #8aee9c;
+outline:0;
+box-shadow:0 0 0 .2rem rgba(0,0,0,.50);
+}
+#textfield_adta::placeholder{
+color:#b0b1b3;
+opacity:.50;
+font-size:14px;
+}
+#select {
+background-color:#fff;
+border-radius:15px;
+width:305px;
+height:46px;
+font-size:12px;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 1px 1px 1px #413659;
+border:2px solid #b1b5b2;
+-webkit-appearance: none;
+-moz-appearance: none;
+-ms-appearance: none;
+appearance: none;
+padding: 0em 1.2em 0.3em 0.6em;
+font-size: inherit;
+background-repeat: no-repeat;
+background-position: right 5px center;
+background-size: 1em;
+background-image: url("http://www.clipartbest.com/cliparts/ncB/75y/ncB75yaji.jpeg");
+ outline:0px;
+}
+#select:focus{
+color:#495057;
+background-color:#fff;
+border-color:#13ca33;
+outline:0;
+box-shadow:0 0 0 .2rem rgba(0,0,0,.60)
+}
+/*-------------end------------*/
+/* اكواد تنسيق صفحة عرض بيانات الطلاب */
+#viwe_vist{
+background-color:#0eb23b;
+margin: 8px 6px;
+height: 100px;
+padding: 16px;
+width:240px;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+text-align:center;
+font-family: 'Lobster', cursive;
+text-shadow: 1px 1px 1px #413659;
+font-weight:bold;
+color:#eee2e2;
+font-size:30px;
+}
+#viwe_vist:hover{
+background-color:#f5e817;
+width:180px;
+margin:8px 34px;
+text-align:center;
+text-decoration:underline;
+color:#000;
+}
+#on{
+color:#696464;
+background-color:#128405;
+width:240px;
+height:50px;
+font-size:20px;
+text-align:center;
+font-family: "Lobster", cursive;
+text-shadow: 1px 1px 1px #413659;
+border:1px solid #000;
+border-radius:15px;
+outline:0px;
+font-weight:bold;
+display:inline-block;
+padding:4px;
+}
+#on:hover{
+background-color:#948989;
+color:#128405;
+}
+#stop{
+background-color:#98243c;
+width:150px;
+padding:3px;
+height:50px;
+margin-bottom:20px;
+font-size:20px;
+text-align:center;
+font-family: "Lobster", cursive;
+text-shadow: 1px 1px 1px #413659;
+border:1px solid #000;
+border-radius:15px;
+outline:0px;
+color:#bdb2b2;
+font-weight:bold;
+}
+#stop:hover{
+color:#98243c;
+background-color:#bdb2b2;
+border:2px solid #fff;
+box-shadow:0px 0px 0px 2px #f08097;
+}
+#atv{
+background-color:#13af06;
+width:150px;
+padding:3px;
+height:50px;
+margin-bottom:20px;
+font-size:20px;
+font-weight:bold;
+text-align:center;
+font-family: "Lobster", cursive;
+text-shadow: 1px 1px 1px #413659;
+border:1px solid #000;
+border-radius:15px;
+outline:0px;
+color:#bdb2b2;
+}
+#atv:hover{
+color:#13af06;
+background-color:#bdb2b2;
+border:2px solid #fff;
+box-shadow:0px 0px 0px 2px #8df385;
+}
+#on2{
+color:#696464;
+background-color:#128405;
+width:240px;
+height:50px;
+font-size:20px;
+text-align:center;
+font-family: "Lobster", cursive;
+text-shadow: 1px 1px 1px #413659;
+border:1px solid #000;
+border-radius:15px;
+outline:0px;
+padding:4px;
+display:inline-block;
+font-weight:bold;
+margin-right:45px;
+}
+#on2:hover{
+background-color:#948989;
+color:#128405;
+}
+#t_vist{
+text-align:center;
+background-color:#a6de95;
+padding:33px;
+width:370px;
+border-radius:10px;
+margin:40px 260px;
+opacity:0.90;
+color:#000;
+
+}
+#td2_vist{
+border:2px solid #e1d009 ;
+background-color: rgba(0, 255,0, 0.90);
+font-size:26px;
+font-family: "Lobster", cursive;
+text-shadow: 1px 1px 1px #413659;
+height:20px;
+text-align:center;
+height:50px;
+color:#666060;
+}
+#tr2_vist{
+border:2px solid #d4113a;
+background-color: rgba(0, 255,0, 0.90);
+font-size: 16px;
+height:20px;
+}
+#table2_vist{
+border:1px;
+border-collapse:collapse;
+width: 101%;
+height:100px;
+background: rgba(0, 0, 0, 0);
+}
+#tt_vist{
+background-color:#128409;
+margin-right:14px;
+margin-top:3px;
+margin-bottom:8px;
+border-radius:15px 0px 0px 15px;
+padding:2px;
+width:200px;
+}
+.footer-copyright2_vist{
+border-radius: 7px 7px 7px 7px;
+padding: 10px;
+border: 2px solid #000;
+width: 96%;
+height: 100px;
+margin: 7px 7px 0px 0px ;
+}
+#button_vist{
+display:inline-block;
+}
+#button2_vist{
+display:inline-block;
+}
+#page_vist{
+display:inline-block;
+margin-right:50px;
+background-color:#19a61c;
+border-radius:10px;
+padding:4px;
+border:2px solid #000;
+margin-top:10px;
+text-align:center;
+}
+#page2{
+display:inline-block;
+width:330px;
+}
+.current3{
+background-color:#76da78;
+border:2px solid #000;
+width:90px;
+padding:6px;
+display:inline-block;
+border-radius:100px;
+margin-left:4px;
+text-align:center;
+}
+.th_vist{
+border:1px solid #000;
+background:linear-gradient(rgba(179, 70, 70,0.60),#fff);
+width:40%;
+height:50px;
+margin:0px -8px;
+}
+.td_vist{
+border: solid 1px #a5a1a1;
+width:50%;
+text-align:center;
+height:50px;
+}
+#id{
+color:#8e81e5;
+}
+#name{
+color:#12ea0e;
+}
+#level{
+color:#eab321;
+}
+#set{
+color:#d98fc5;
+}
+#class{
+color:#e27870;
+}
+#spe{
+color:#0e9d95;
+}
+#am{
+color:#bdb2b2;
+}
+#tr_vist{
+border: solid 1px #c9c9c9;
+height:60px;
+}
+.table_vist{
+border-collapse:collapse;
+width:97%;
+background-color:#fff;
+font-size:20px;
+font-weight:bold;
+margin-right:14px;
+}
+#tr_vist:nth-child(2n + 1) {
+background-color: rgba(144, 144, 144, 0.35);
+}
+#post_vist{
+width:100%;
+overflow:auto;
+background-image: url(img/header.jpg);
+background-repeat: no-repeat;
+background-size:100% 100%;
+height:100%;
+margin:-6px 0px 0px 0px;
+background-color:#348636;
+border-radius:15px;
+}
+#y2_vist{
+display:inline-block;
+background-color:#128409;
+border-radius:15px 0px 0px 15px;
+padding:2px;
+height:25px;
+margin-bottom:-10px;
+border:1px solid #8eee87;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+}
+#y2_vist:hover{
+background-color:#f5f574;
+border:1px solid #a8ac41;
+color:#9d0a0a;
+}
+#y_vist{
+display:inline-block;
+background-color:#4a9e4a;
+width:955px;
+border-radius:10px;
+margin-right:3px;
+padding:2px;
+border-radius:15px 0px 0px 15px;
+height:32px;
+}
+/*--------------end-------------*/
+/* اكواد تنسيق صفحة البحث عن طالب */
+#post_res{
+width:100%;
+overflow:auto;
+background-image: url(img/header.jpg);
+background-repeat: no-repeat;
+background-size:100% 100%;
+padding:0px;
+height:100%;
+margin:20px 2px 0px 0px;
+background-color:#348636;
+border-radius:15px;
+}
+#sl{
+background-color:#ddd;
+overflow:auto;
+margin-top:10px;
+border-radius:5px;
+width:70%;
+}
+#box-search{
+background-color:#b8a8a8;
+overflow:auto;
+margin-top:10px;
+border-radius:5px;
+width:50%;
+height:150px;
+}
+#sch_res{
+border-radius:15px;
+width:200px;
+font-family: 'Droid Arabic Naskh', serif;
+background:#ccfec8;
+border:1px solid #ccfec8;
+margin-top:60px;
+  }
+#sch_res:focus{
+color:#495057;
+background-color:#ccfec8;
+border-color:#ccfec8;
+outline:0;
+  }
+#sch2_res{
+width:150px;
+font-family: 'Droid Arabic Naskh', serif;
+background:#ccfec8;
+border:1px solid #ccfec8;
+border-radius:15px;
+color:#495057;
+outline:0;
+}
+#sch2_res:hover{
+color:#1773d0;
+background-color:#ccfec8;
+border-color:#ccfec8;
+outline:0;
+}
+#r_res{
+border:2px solid #2e8110;
+margin-top:30px;
+}
+#r_res:hover{
+border:2px solid #0ba16e;
+}
+/*---------------end------------*/
+/* اكواد تنسيق صفحة عرض المواد */
+#viwe_mat{
+background-color:#0eb23b;
+margin: 8px 6px;
+height: 100px;
+padding: 16px;
+width:240px;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+text-align:center;
+font-weight: bold;
+font-family: 'Lobster', cursive;
+text-shadow: 1px 1px 1px #413659;
+font-size:30px;
+color:#eee2e2;
+}
+#viwe_mat:hover{
+background-color:#f5e817;
+width:180px;
+margin:8px 34px;
+text-align:center;
+text-decoration:underline;
+color:#000;
+}
+.th_mat{
+border:1px solid #000;
+background:linear-gradient(rgba(179, 70, 70,0.60),#fff);
+width:40%;
+height:50px;
+margin:0px -8px;
+}
+.td_mat{
+border: solid 1px #a5a1a1;
+width:50%;
+text-align:center;
+height:50px;
+}
+#id_mat{
+color:#8e81e5;
+}
+#name_mat{
+color:#12ea0e;
+}
+#mat{
+color:#eab321;
+}
+#set_mat{
+color:#d98fc5;
+}
+#time_mat{
+color:#e27870;
+}
+#spe_mat{
+color:#0e9d95;
+}
+.tr_mat{
+border: solid 1px #c9c9c9;
+height:60px;
+}
+.table_mat{
+border-collapse:collapse;
+width:97%;
+background-color:#fff;
+font-size:20px;
+font-weight:bold;
+margin-right:14px;
+border-radius:15px;
+}
+.table_mat .tr_mat:nth-child(2n + 1) {
+background-color: rgba(144, 144, 144, 0.35);
+}
+#hr_mat{
+background-color:green;
+height:2px;
+}
+#hr2_mat{
+background-color:green;
+}
+#div_mat{
+background-color:red;
+height:5px;
+}
+#t_mat{
+background:linear-gradient(rgba(179, 70, 70,0.60),#fff);
+width:240px;
+margin-right:50px;
+font-weight:bold;
+}
+#h_mat{
+background-color:#128409;
+border-radius:15px 0px 0px 15px;
+padding:2px;
+width:200px;
+}
+#h2_mat{
+color:green;
+background:linear-gradient(rgba(179, 70, 70,0.60),#fff);
+width:240px;
+margin-right:50px;
+padding:2px;
+font-weight:bold;
+}
+#post_mat{
+position:absolute;
+width:76%;
+overflow:auto;
+float:left;
+background-image: url(img/ss.jpg);
+background-repeat: no-repeat;
+background-size:100% 536px;
+padding:0px;
+height:540px;
+margin:0px;
+border-radius: 6px;
+margin:4px 215px 0px 0px;
+background-color:#348636;
+border:2px solid #7e7272;
+}
+/*---------------end----------*/
+/* اكواد تنسيق صفحة عرض جدول الامتحانات */
+#viwe{
+background-color:#128409;
+margin: 8px 15px;
+padding: 12px;
+width:95%;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+text-align:center;
+overflow-y:scroll ;
+overflow-x:scroll;
+background:linear-gradient(#d29191,#fff);
+}
+#qaab9{
+margin:12px 0px 0px 0px ;
+height:1400px;
+width: 98%;
+overflow:auto;
+background-color:#256d06;
+border-radius: 10px;
+box-shadow:0px 0px 0px 3px #256d06;
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #fff;
+background-image:url("img/header.jpg");
+background-repeat: no-repeat;
+background-size:100% 1501px;
+}
+#date{
+color:#6c95e7;
+}
+#name{
+color:#57aa10;
+}
+#deg{
+color:#b95470;
+}
+#time{
+color:#d4aa23;
+}
+#case{
+color:#8d8283;
+}
+#y2{
+display:inline-block;
+background-color:#128409;
+border-radius:15px 0px 0px 15px;
+padding:2px;
+height:25px;
+margin-bottom:-10px;
+border:1px solid #8eee87;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+}
+#y2:hover{
+background-color:#f5f574;
+border:1px solid #a8ac41;
+color:#9d0a0a;
+}
+#y{
+display:inline-block;
+background-color:#4a9e4a;
+width:950px;
+border-radius:10px;
+padding:2px;
+border-radius:15px 0px 0px 15px;
+height:32px;
+}
+#h{
+background-color:#128409;
+border-radius:15px 0px 0px 15px;
+padding:2px;
+width:200px;
+}
+#h2{
+color:green;
+background:linear-gradient(rgba(179, 70, 70,0.60),#fff);
+width:240px;
+margin-right:50px;
+padding:2px;
+font-weight:bold;
+}
+#vita{
+background-color:#128409;
+width:295px;
+margin-right:303px;
+border-radius:15px 0px 0px 15px;
+}
+/*--------------end---------------*/
+/* اكواد تنسيق صفحة الاساتذة */
+#viwe2_adte{
+background-color:#aaf0a5;
+height: 50px;
+padding: 16px;
+width:200px;
+margin:2px 96px 0px 0px ;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+text-align:center;
+overflow-x:scroll;
+overflow-y:scroll;
+}
+#viwe_adte{
+background-color:#128409;
+margin: 15px 5px 0px 0px;
+height:150px;
+width:650px;
+padding:2px;
+border-radius: 10px;
+box-shadow:0px 0px 0px 2px #b2e8b3;
+color:#e2e274;
+font-size:28px;
+text-align:center;
+display:inline-block;
+}
+#viwe3_adte{
+background-color:#aaf0a5;
+margin: 35px 80px;
+height: 50px;
+padding: 5px;
+width:500px;
+border-radius: 10px;
+box-shadow:0px 0px 0px 5px rgba(0,0,0,0.3);
+ text-align:center;
+}
+#ar_adte{
+border-radius: 10px;
+background-color:#bfb8b8;
+height:40px;
+border:2px solid #d8d8d8;
+width:100px;
+}
+#t_adte{
+background-color:#128409;
+margin:13px 5px 0px 0px ;
+padding:6px;
+height:40px;
+border-radius: 10px;
+box-shadow:0px 0px 0px 2px #b2e8b3;
+text-align:center;
+color:#e2e274;
+font-size:28px;
+display:inline-block;
+}
+#t2_adte{
+display:inline-block;
+}
+#h_adte{
+color:blue;
+border-radius:15px;
+}
+.qaab5-addtest{
+margin:35px 17px 0px 0px ;
+height:450px;
+width: 94%;
+background-color:#256d06;
+border-radius: 20px;
+box-shadow:5px 5px 10px 7px #256d06;
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #fff;
+background-image:url(img/rr.webp);
+background-repeat: no-repeat;
+background-size:100% 501px;
+}
+.mint-tips_adte{
+background-color:#128409;
+margin: 15px 5px 0px 0px;
+height:60px;
+width:650px;
+padding:6px;
+border-radius: 10px;
+box-shadow:0px 0px 0px 2px #b2e8b3;
+color:#e2e274;
+font-size:28px;
+text-align:center;
+display:inline-block;
+}
+.mint-tips_adte:hover{
+background-color:#e5d811;
+color:#000;
+font-size:28px;
+}
+#ar_adte:hover{
+background-color:#72ee6a;
+}
+/*--------------end------*/
+/* اكواد تنسيق صفحة اضافة سؤال */
+#th_qu{
+border:2px solid #087e0d ;
+background-color:rgba(179, 70, 70, 1) ;
+width:100px;
+height:34px;
+}
+.td_qu{
+border:2px solid #d4113a ;
+background-color: rgba(255, 255, 255, 0.15);
+font-size: 16px;
+height:10px;
+padding:5px;
+}
+.tr_qu{
+border:2px solid #d4113a;
+background-color: rgba(255, 255, 255, 0.15);
+font-size: 16px;
+height:40px;
+padding:5px;
+}
+.table_qu{
+border:1px;
+border-collapse:collapse;
+width: 98%;
+height:100px;
+background: rgba(0, 0, 0, 0);
+}
+#textfield_qu{
+border-radius:1000px;
+width: 382px;
+border-color: #0fea47;
+height:45px;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 0px 0px 1px #413659;
+border:2px solid #b1b5b2;
+color:#929292;
+}
+#textfield2_qu{
+border-radius: 10px;
+width: 374px;
+border-color: #0fea47;
+height:80px;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 0px 0px 1px #413659;
+border:2px solid #b1b5b2;
+color:#929292;
+}
+#textfield3_qu{
+border-radius: 1000px;
+width: 774px;
+border-color: #0fea47;
+height:45px;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 0px 0px 1px #413659;
+border:2px solid #b1b5b2;
+color:#929292;
+}
+#textfield_qu:focus{
+outline:0px;
+border:2px solid #37f58c;
+color:#929292;
+}
+#textfield2_qu:focus{
+outline:0px;
+border:2px solid #37f58c;
+color:#929292;
+}
+#textfield3_qu:focus{
+outline:0px;
+border:2px solid #37f58c;
+color:#929292;
+}
+#viwe_qu{
+background-color:#128409;
+margin: 8px 0px;
+height: 100px;
+padding: 16px;
+width:290px;
+margin:12px 5px 0px 0px ;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+text-align:center;
+overflow-x:scroll;
+overflow-y:scroll;
+}
+.qaab6_qu{
+margin:40px 40px 0px 0px ;
+height:1200px;
+width:90%;
+background-color:#256d06;
+border-radius: 10px;
+box-shadow:5px 5px 10px 7px #256d06;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #fff;
+background-image:url(img/rr.webp);
+background-repeat: no-repeat;
+background-size:100% 1201px;
+visibility:visible;
+color:#8b0808;
+}
+#post_qu{
+width:100%;
+height:100%;
+overflow-y:scroll ;
+overflow-x:scroll;
+border-radius: 10px;
+margin-top:20px;
+background-color:#ccf1ba;
+box-shadow:0px 0px 0px 2px #00bd58;
+}
+#save_qu{
+background-color:#0c9a0f;
+margin:10px 650px 0px 0px;
+width:190px;
+height:50px;
+overflow-y:scroll;
+border-radius:10px;
+font-size:27px;
+font-weight: bold;
+font-family: 'Lobster', cursive;
+text-shadow: 1px 1px 1px #413659;
+outline:0px;
+border:2px solid #cac7c7;
+}
+#save_qu:hover{
+background-color:#37f58c;
+margin:10px 650px 0px 0px;
+width:190px;
+height:50px;
+overflow-y:scroll;
+border-radius:10px;
+font-size:27px;
+font-weight: bold;
+font-family: 'Lobster', cursive;
+text-shadow: 1px 1px 1px #413659;
+outline:0px;
+border:2px solid #cac7c7;
+}
+#save2_qu{
+background-color:#0c9a0f;
+margin:10px 0px 0px 0px;
+width:300px;
+border-radius:100px;
+padding: 16px;
+margin:1px 54px 0px 0px ;
+text-align:center;
+box-shadow:0px 0px 0px 2px #37f58c;
+border-color:#000;
+}
+#save3_qu{
+background-color:#0c9a0f;
+width:80px;
+border-radius:10px;
+padding: 2px;
+margin:0px 0px 0px 0px ;
+text-align:center;
+border-color:#000;
+outline:0px;
+font-weight: bold;
+font-family: 'Lobster', cursive;
+text-shadow: 1px 1px 1px #413659;
+height:40px;
+}
+#save3_qu:hover{
+background-color:#65f068;
+width:80px;
+border-radius:10px;
+padding: 2px;
+margin:0px 0px 0px 0px ;
+text-align:center;
+border:2px solid #797474;
+outline:0px;
+font-weight: bold;
+font-family: 'Lobster', cursive;
+height:40px;
+}
+#end_qu{
+background-color:#fff;
+margin:10px 360px 0px 0px;
+width:500px;
+overflow-y:scroll;
+padding:5px;
+border-radius:10px;
+}
+#end_qu:hover{
+background-color:#e7e701;
+margin:10px 360px 0px 0px;
+width:500px;
+overflow:scroll;
+padding:5px;
+border-radius:10px;
+color:#26f001;
+}
+#label_qu:after{
+content:"*";
+color:red;
+}
+#label2_qu:after{
+content:"*";
+color:red;
+}
+#label_qu{
+background-color:#37f58c;
+height:83px;
+text-align:center;
+border-radius:10px;
+margin-top:-6px;
+margin-right:3px;
+box-shadow:0px 0px 0px 2px #cfc9c9;
+}
+#label2_qu{
+background-color:#37f58c;
+border-radius:10px;
+margin-bottom:3px;
+margin-top:3px;
+box-shadow:0px 0px 0px 2px #cfc9c9;
+margin-right:3px;
+}
+#label3_qu{
+background-color:#37f58c;
+border-radius:10px;
+margin-bottom:3px;
+margin-top:3px;
+box-shadow:0px 0px 0px 2px #cfc9c9;
+}
+#fiel_qu{
+background-color:#048807;
+border-color:#000;
+}
+#details_qu{
+background-color:#f4dc8f;
+border-radius:10px;
+height:44px;
+display:inline-block;
+width:98%;
+outline:0px;
+}
+#details2_qu{
+display:inline-block;
+width:98%;
+}
+#legend_qu{
+background-color:#e5b311;
+border-radius:15px 0px 0px 15px;
+padding:3px;
+box-shadow:0px 0px 0px 2px #37f58c;
+}
+#fieldset_qu{
+border:2px solid #37f58c;
+}
+#y2_qu{
+display:inline-block;
+background-color:#128409;
+border-radius:15px 0px 0px 15px;
+padding:2px;
+margin-bottom:-10px;
+height:25px;
+margin-bottom:-10px;
+border:1px solid #8eee87;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+}
+#y2_qu:hover{
+background-color:#f5f574;
+border:1px solid #a8ac41;
+color:#9d0a0a;
+}
+#y_qu{
+display:inline-block;
+background-color:#4a9e4a;
+width:955px;
+border-radius:10px;
+padding:2px;
+border-radius:15px 0px 0px 15px;
+height:32px;
+}
+.qaab6-Qu2{
+margin:55px 40px 0px 0px;
+width:90%;
+background-color:#256d06;
+border-radius: 10px;
+box-shadow:5px 5px 10px 7px #256d06;
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+border: 2px solid #fff;
+background-color:#cbcbcb;
+visibility:visible;
+color:#8b0808;
+height:120px;
+}
+#post_qu2{
+margin:40px 40px 0px 0px ;
+height:1200px;
+width:90%;
+background-color:#256d06;
+border-radius: 10px;
+box-shadow:5px 5px 10px 7px #256d06;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #fff;
+background-image:url(img/rr.webp);
+background-repeat: no-repeat;
+background-size:100% 1201px;
+visibility:visible;
+color:#8b0808;
+}
+#save_qu2{
+margin:10px 60px 0px 0px;
+border-radius:10px;
+background-color:#179a0c;
+width:160px;
+height:50px;
+overflow-y:scroll;
+border-radius:10px;
+font-size:27px;
+outline:0px;
+border:2px solid #ccc7c7;
+}
+#save_qu2:hover{
+margin:10px 60px 0px 0px;
+border-radius:10px;
+background-color:#b0f9a9;
+width:160px;
+height:50px;
+overflow-y:scroll;
+border-radius:10px;
+font-size:27px;
+outline:0px;
+border:2px solid #ccc7c7;
+}
+#save5_qu{
+background-color:#179a0c;
+margin:10px 350px 0px 0px;
+width:190px;
+height:53px;
+overflow-y:scroll;
+border-radius:10px;
+font-size:27px;
+outline:0px;
+border:2px solid #dcd9d9;
+font-weight:bold;
+text-shadow:0px 0px 2px #837f7f;
+}
+#save5_qu:hover{
+background-color:#b0f9a9;
+margin:10px 350px 0px 0px;
+width:190px;
+height:53px;
+overflow-y:scroll;
+border-radius:10px;
+font-size:27px;
+outline:0px;
+border:2px solid #ccc7c7;
+}
+#save2_qu2{
+margin:10px 0px 0px 0px;
+border-radius:10px;
+background-color:#179a0c;
+width:360px;
+height:50px;
+overflow-y:scroll;
+border-radius:10px;
+font-size:27px;
+padding:6px;
+outline:0px;
+}
+#filed_qu2{
+width:655px;
+border-color:#e75c5c;
+height:100%;
+border-width:9px;
+margin-bottom:-8px;
+}
+#Qu_qu2{
+background-color:#37f57a;
+height:66px;
+border-radius:10px;
+text-align:center;
+margin-right:4px;
+margin-top:-5px;
+}
+#y2_qu2{
+display:inline-block;
+background-color:#128409;
+border-radius:15px 0px 0px 15px;
+padding:2px;
+margin-bottom:-10px;
+height:25px;
+margin-bottom:-10px;
+border:1px solid #8eee87;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+}
+#y2_qu2:hover{
+background-color:#f5f574;
+border:1px solid #a8ac41;
+color:#9d0a0a;
+}
+#y_qu2{
+display:inline-block;
+background-color:#4a9e4a;
+width:955px;
+border-radius:10px;
+padding:2px;
+border-radius:15px 0px 0px 15px;
+}
+#legend2_qu2{
+background-color:#4eeb48;
+border-radius:25px 0px 0px 25px;
+height:50px;
+font-size:12px;
+box-shadow:0px 0px 0px 2px #e75c5c;
+  }
+#li_qu2{
+color: #AAAAAA;
+display:block;
+position: relative;
+width: 90%;
+height:80px;
+border-bottom:2px solid #eb5e51;
+}
+#option5{
+position: absolute;
+visibility:hidden;
+}
+#option2{
+position: absolute;
+visibility:hidden;
+}
+#option3{
+position: absolute;
+visibility:hidden;
+}
+#option4{
+position: absolute;
+visibility:hidden;
+}
+#label_qu2{
+display:inline-block;
+font-weight: 300;
+font-size: 1.10em;
+height:20px;
+cursor: pointer;
+-webkit-transition: all 0.25s linear;
+color:#8f0d0d;
+margin-top:25px;
+}
+#li_qu2:hover #label_qu2{
+color: #000;
+}
+#li_qu2 .check_qu2{
+display: block;
+position: absolute;
+border: 5px solid #06a85f;
+border-radius: 100%;
+height: 25px;
+width: 25px;
+top: 30px;
+left: 20px;
+z-index: 5;
+float:right;
+ /* visibility:hidden;*/
+transition: border .25s linear;
+overflow:scroll;
+-webkit-transition: border .25s linear;
+}
+#li_qu2:hover .check_qu2{
+border: 5px solid #FFFFFF;
+overflow:scroll;
+}
+.check_qu2::before {
+position: absolute;
+content: '';
+border-radius: 100%;
+height: 15px;
+width: 15px;
+top: 5px;
+left: 5px;
+margin: auto;
+transition: background 0.25s linear;
+-webkit-transition: background 0.25s linear;
+}
+#option4:checked ~ .check_qu2 {
+border: 2px solid #f87878;
+background-image:url("img/rad.png");
+background-size:100%;
+visibility:visible;
+display:inline-block;
+}
+#option3:checked ~ .check_qu2 {
+border: 2px solid #f87878;
+background-image:url("img/rad.png");
+background-size:100%;
+visibility:visible;
+display:inline-block;
+}
+#option2:checked ~ .check_qu2 {
+border: 2px solid #f87878;
+background-image:url("img/rad.png");
+background-size:100%;
+visibility:visible;
+display:inline-block;
+}
+#option5:checked ~ .check_qu2 {
+border: 2px solid #f87878;
+background-image:url("img/rad.png");
+background-size:100%;
+visibility:visible;
+display:inline-block
+}
+.ul_qu2{
+background-color:#aaf8c4;
+border:1px solid #555;
+border-radius:15px;
+}
+/*-------------end----------*/
+/* اكواد تنسيق صفحة عرض السؤال */
+#del_vqu{
+background-color:#de0404;
+margin:10px 0px 0px 0px;
+width:90px;
+border-radius:10px;
+padding:5px;
+text-align:center;
+outline:0px;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 0px 0px 2px #413659;
+border:1px solid #fff;
+}
+#del_vqu:hover{
+background-color:#eb4f4f;
+margin:10px 0px 0px 0px;
+width:90px;
+border-radius:10px;
+padding:2px;
+text-align:center;
+outline:0px;
+border:1px solid #fff;
+box-shadow:0px 0px 0px 2px #eb4f4f;
+}
+#up_vqu{
+background-color:#4dc94f;
+margin:10px 0px 0px 0px;
+width:90px;
+border-radius:10px;
+padding:5px;
+text-align:center;
+border:1px solid #fff;
+outline:0px;
+font-family: 'Droid Arabic Naskh', serif;
+text-shadow: 0px 0px 2px #413659;
+}
+#up_vqu:hover{
+background-color:#09f00e;
+margin:10px 0px 0px 0px;
+width:90px;
+border-radius:10px;
+padding: 2px;
+text-align:center;
+border:1px solid #fff;
+outline:0px;
+box-shadow:0px 0px 0px 2px  #9feaa0;
+}
+#post_vqu{
+margin:40px 40px 0px 0px ;
+height:800px;
+width:90%;
+background-color:#256d06;
+border-radius: 10px;
+box-shadow:5px 5px 10px 7px #256d06;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #fff;
+background-image:url(img/rr.webp);
+background-repeat: no-repeat;
+background-size:100% 1201px;
+visibility:visible;
+color:#8b0808;
+}
+.qaab6_vqu{
+margin:40px 40px 0px 0px ;
+width:90%;
+background-color:#256d06;
+border-radius: 10px;
+box-shadow:5px 5px 10px 7px #256d06;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+border: 2px solid #fff;
+background-image:url(img/rr.webp);
+background-repeat: no-repeat;
+background-size:100% 901px;
+visibility:visible;
+color:#8b0808;
+}
+#th_vqu{
+border:2px solid #087e0d ;
+background-color:rgba(179, 70, 70, 1) ;
+width:100px;
+height:34px;
+color:green;
+}
+#td_vqu{
+border:2px solid #d4113a ;
+background-color: rgba(255, 255, 255, 0.15);
+font-size: 16px;
+height:20px;
+}
+#tr_vqu{
+border:2px solid #d4113a;
+background-color: rgba(255, 255, 255, 0.15);
+font-size: 16px;
+height:55px;
+}
+#table_vqu{
+border:1px;
+border-collapse:collapse;
+width: 98%;
+height:100px;
+background: rgba(0, 0, 0, 0);
+}
+#tr2_vqu{
+border:2px solid #d4113a;
+background-color: rgba(255, 255, 255, 0.15);
+font-size: 16px;
+height:80px;
+}
+#td2_vqu{
+border:2px solid #d4113a ;
+background-color: rgba(255, 255, 255, 0.15);
+font-size: 16px;
+height:20px;
+  }
+#viw{
+background-color:green;
+padding:8px;
+margin-right:14px;
+width:450px;
+margin-bottom:5px;
+border-radius:15px 0px 0px 15px;
+}
+/*------------------end---------*/
+.admin_table_stu{
+margin:53px 58px -46px -8px;
+background-color: rgba(11, 113, 65, 0.66);
+width: 702px;
+height:269px;
+border-radius: 15px 15px 15px 15px;
+padding: 50px;
+}
+a:link{
+text-decoration:none;
+color:#000;
+}
+a:visited{
+text-decoration:none;
+color:#000;
+background-color:#e2be37;
+}
+a:hover{
+text-decoration:none;
+color:#c60200;
+background-size:100% 450px;
+}
+ .qaab{
+margin:66px 70px 0px 0px ;
+height:500px;
+width: 87%;
+background-color:#256d06;
+border-radius: 10px;
+box-shadow:5px 5px 10px 7px #256d06;
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #fff;
+background-image:url(img/rr.webp);
+background-repeat: no-repeat;
+background-size:100% 501px;
+   }
+#qaab{
+top:0;
+bottom: 0;
+margin:auto;
+left:0;
+right: 0;
+width: 100%;
+height:1480px;
+background-color:#ccfec8;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #fff;
+}
+#header{
+top:0;
+bottom: 0;
+margin:auto;
+left:0;
+right: 0;
+width: 100%;
+height:150px;
+background-color:#86e87e;
+border-radius: 10px;
+box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+}
+.qaab2{
+margin:66px 70px 0px 0px ;
+height:750px;
+width: 87%;
+background-color:#256d06;
+border-radius: 10px;
+box-shadow:5px 5px 10px 7px rgba(0,0,0,0.3);
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family:'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+background-image:url(img/rr.webp);
+background-repeat: no-repeat;
+background-size:100% 781px;
+}
+#qaab2{
+margin-top:14px;
+margin-right:4px;
+width: 98%;
+height:1000px;
+background:linear-gradient(#c1f5c4,#ccfec8);
+border-radius: 10px;
+box-shadow:0px 0px 0px 3px rgba(0,0,0,0.3);
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #fff;
+}
+#qaab22{
+margin-top:14px;
+margin-right:4px;
+width: 98%;
+height:880px;
+background:linear-gradient(#c1f5c4,#ccfec8);
+border-radius: 10px;
+box-shadow:0px 0px 0px 3px rgba(0,0,0,0.3);
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #fff;
+}
+#header{
+margin:0px 4px 0px 0px;
+width: 98%;
+height:200px;
+background-color:#86e87e;
+border-radius: 10px;
+box-shadow:0px 0px 0px 5px rgba(0,0,0,0.3);
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+background-image:url(img/ss.jpg);
+background-repeat:no-repeat;
+background-size:100% 200px;
+}
+#span{
+margin:-170px 10px 0px 0px ;
+}
+#span2{
+margin:-198px 820px 0px 0px ;
+}
+.qaab3{
+margin:66px 70px 0px 0px ;
+height:500px;
+width: 87%;
+background-color:#256d06;
+border-radius: 10px;
+box-shadow:5px 5px 10px 7px #256d06;
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #fff;
+background-image:url(img/rr.webp);
+background-repeat: no-repeat;
+background-size:100% 501px;
+}
+#qaab3{
+margin-top:14px;
+margin-right:4px;
+width: 98%;
+height:660px;
+background:linear-gradient(#c1f5c4,#ccfec8);
+border-radius: 10px;
+box-shadow:0px 0px 0px 3px rgba(0,0,0,0.3);
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family:'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #fff;
+}
+.qaab4-up{
+margin:25px 40px 0px 0px ;
+height:480px;
+width: 87%;
+background-color:#256d06;
+border-radius: 10px;
+box-shadow:5px 5px 10px 7px #256d06;
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #fff;
+background-image:url(img/rr.webp);
+background-repeat: no-repeat;
+background-size:100% 501px;
+}
+.qaab4-po{
+margin:25px 40px 0px 0px ;
+height:480px;
+width: 87%;
+background-color:#256d06;
+border-radius: 10px;
+box-shadow:5px 5px 10px 7px #256d06;
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #fff;
+background-image:url(img/rr.webp);
+background-repeat: no-repeat;
+background-size:100% 501px;
+}
+.qaab5{
+margin:35px 35px 0px 0px ;
+height:450px;
+width: 87%;
+background-color:#256d06;
+border-radius: 20px;
+box-shadow:5px 5px 10px 7px #256d06;
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #fff;
+background-image:url(img/rr.webp);
+background-repeat: no-repeat;
+background-size:100% 501px;
+}
+.qaab6{
+margin:20px 20px 0px 0px ;
+height:350px;
+width: 87%;
+background-color:#256d06;
+border-radius: 20px;
+box-shadow:5px 5px 10px 7px #256d06;
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #fff;
+background-repeat: no-repeat;
+background-size:100% 501px;
+}
+.qaab8{
+margin:0px 20px 0px 0px ;
+width: 98%;
+background-color:#256d06;
+border-radius: 20px;
+box-shadow:5px 5px 10px 7px #256d06;
+color:#333;
+font-size: 23px;
+padding-left:10px;
+font-weight: bold;
+font-family: 'Rokkitt', serif;
+overflow-y:scroll ;
+overflow-x:scroll;
+border: 2px solid #fff;
+background-image:url(img/ss.jpg);
+background-repeat: no-repeat;
+background-size:100% 901px;
+}
+#clock{
+background-color: rgba(11, 113, 65, 0.90);
+text-align:left;
+border-radius: 10px;
+box-shadow:0px 0px 0px 7px #256d06;
+margin:0px 10px 0px 0px;
+width:98%;
+}
+.mint-tips, [class*=mint-tips] {
+ position: relative;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  height: 100%
+}
+.mint-tips::before, [class*=mint-tips]::before { content: attr(data-title);
+white-space: nowrap;
+top:10px;
+color:green;
+font-weight:400;
+padding:5px;
+background: #e9e9e9;
+box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, .3), 0 1px 0 0 rgba(0, 0, 0, .05);
+pointer-events: none;
+font-size: 14px;
+text-decoration: none;
+border-radius:5px;
+border:1px solid green;
+}
+.mint-tips2::before, [class*=mint-tips2]::before { content: attr(data-title2);
+white-space: nowrap;
+top: -10px;
+color: #baf0a0;
+font-weight: 400;
+padding: .8em 1em;
+background: #555;
+box-shadow: 0 2px 2px -1px rgba(0, 0, 0, .3), 0 1px 0 0 rgba(0, 0, 0, .05);
+pointer-events: none;
+font-size: 14px;
+text-decoration: none;
+}
+.mint-tips2::before, [class*=mint-tips2]::before { content: attr(data-title);
+color: #baf0a0;
+font-weight: 400;
+background: #fff;
+font-size: 14px;
+text-decoration: none;
+}
+ .mint-tips::after, .mint-tips::before, [class*=mint-tips]::after, [class*=mint-tips]::before {
+ opacity: 0;
+ position: absolute;
+ left: 50%;
+ z-index: 100;
+ -webkit-transform: translate(-50%, -100%); transform: translate(-50%, -100%);
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+ -webkit-transform-origin: top;
+  transform-origin: top;
+}
+.mint-tips::after, [class*=mint-tips]::after { content: attr(date-title);
+ border-style: solid;
+ border-color: #e9e9e9 transparent transparent;
+  border-width: 10px;
+  top:26px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.mint-tips:hover::after, .mint-tips:hover::before, [class*=mint-tips]:hover::after, [class*=mint-tips]:hover::before { opacity: 1 } [data-mint-tips=left]::after, [data-mint-tips=left]::before { top: 50%; right: auto; -webkit-transform: translate(-100%, -50%); transform: translate(-100%, -50%) } [data-mint-tips=left]::before { left: -10px } [data-mint-tips=left]::after { left: 8px; border-color: transparent transparent transparent rgba(0, 0, 0, .8) } [data-mint-tips=right]::after, [data-mint-tips=right]::before { top: 50%; left: auto; -webkit-transform: translate(100%, -50%); transform: translate(100%, -50%) } [data-mint-tips=right]::before { right: -10px } [data-mint-tips=right]::after { right: 8px; border-color: transparent rgba(0, 0, 0, .8) transparent transparent } [data-mint-tips=bottom]::after, [data-mint-tips=bottom]::before { top: auto; -webkit-transform: translate(-50%, 100%); transform: translate(-50%, 100%) } [data-mint-tips=bottom]::before { bottom: -10px } [data-mint-tips=bottom]::after { bottom: 8px; border-color: transparent transparent rgba(0, 0, 0, .8) } [class*=mint-tips--]::after, [class*=mint-tips--]::before { -webkit-transition: opacity .2s, -webkit-transform .2s; transition: opacity .2s, -webkit-transform .2s; transition: transform .2s, opacity .2s; transition: transform .2s, opacity .2s, -webkit-transform .2s } [class*=mint-tips--]:hover::after, [class*=mint-tips--]:hover::before { -webkit-transition: opacity .3s, -webkit-transform ease .5s; transition: opacity .3s, -webkit-transform ease .5s; transition: transform ease .5s, opacity .3s; transition: transform ease .5s, opacity .3s, -webkit-transform ease .5s } [class*=mint-tips--]::before { -webkit-transform-origin: bottom; transform-origin: bottom } [class*=mint-tips--]::after { -webkit-transform-origin: top; transform-origin: top } [data-mint-tips=left][class*=mint-tips--]::before { -webkit-transform-origin: right; transform-origin: right } [data-mint-tips=left][class*=mint-tips--]::after { -webkit-transform-origin: left; transform-origin: left } [data-mint-tips=bottom][class*=mint-tips--]::before { -webkit-transform-origin: top; transform-origin: top } [data-mint-tips=bottom][class*=mint-tips--]::after { -webkit-transform-origin: bottom; transform-origin: bottom } [data-mint-tips=right][class*=mint-tips--]::before { -webkit-transform-origin: left; transform-origin: left } [data-mint-tips=right][class*=mint-tips--]::after { -webkit-transform-origin: right; transform-origin: right } .mint-tips--fade:hover::after, .mint-tips--fade:hover::before { -webkit-transition: opacity .5s; transition: opacity .5s } [class*=mint-tips--slide]:hover::after, [class*=mint-tips--slide]:hover::before { -webkit-transform: translate(-50%, -100%); transform: translate(-50%, -100%) } [data-mint-tips=left][class*=mint-tips--slide]:hover::after, [data-mint-tips=left][class*=mint-tips--slide]:hover::before { -webkit-transform: translate(-100%, -50%); transform: translate(-100%, -50%) } [data-mint-tips=bottom][class*=mint-tips--slide]:hover::after, [data-mint-tips=bottom][class*=mint-tips--slide]:hover::before { -webkit-transform: translate(-50%, 100%); transform: translate(-50%, 100%) } [data-mint-tips=right][class*=mint-tips--slide]:hover::after, [data-mint-tips=right][class*=mint-tips--slide]:hover::before { -webkit-transform: translate(100%, -50%); transform: translate(100%, -50%) } .mint-tips--slide-in::after, .mint-tips--slide-in::before { -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%) } [data-mint-tips=left].mint-tips--slide-in::after, [data-mint-tips=left].mint-tips--slide-in::before { -webkit-transform: translate(-90%, -50%); transform: translate(-90%, -50%) } [data-mint-tips=bottom].mint-tips--slide-in::after, [data-mint-tips=bottom].mint-tips--slide-in::before { -webkit-transform: translate(-50%, 50%); transform: translate(-50%, 50%) } [data-mint-tips=right].mint-tips--slide-in::after, [data-mint-tips=right].mint-tips--slide-in::before { -webkit-transform: translate(90%, -50%); transform: translate(90%, -50%) } .mint-tips--slide-out::after, .mint-tips--slide-out::before { -webkit-transform: translate(-50%, -120%); transform: translate(-50%, -120%) } [data-mint-tips=left].mint-tips--slide-out::before { -webkit-transform: translate(-110%, -50%); transform: translate(-110%, -50%) } [data-mint-tips=left].mint-tips--slide-out::after { -webkit-transform: translate(-200%, -50%); transform: translate(-200%, -50%) } [data-mint-tips=bottom].mint-tips--slide-out::after, [data-mint-tips=bottom].mint-tips--slide-out::before { -webkit-transform: translate(-50%, 120%); transform: translate(-50%, 120%) } [data-mint-tips=right].mint-tips--slide-out::before { -webkit-transform: translate(110%, -50%); transform: translate(110%, -50%) } [data-mint-tips=right].mint-tips--slide-out::after { -webkit-transform: translate(200%, -50%); transform: translate(200%, -50%) } [class*=mint-tips--bounce]:hover::after, [class*=mint-tips--bounce]:hover::before { -webkit-transition: opacity .3s, -webkit-transform cubic-bezier(.66, -2, .36, 2) .5s; transition: opacity .3s, -webkit-transform cubic-bezier(.66, -2, .36, 2) .5s; transition: transform cubic-bezier(.66, -2, .36, 2) .5s, opacity .3s; transition: transform cubic-bezier(.66, -2, .36, 2) .5s, opacity .3s, -webkit-transform cubic-bezier(.66, -2, .36, 2) .5s; -webkit-transform: translate(-50%, -100%) scale(1); transform: translate(-50%, -100%) scale(1) } [data-mint-tips=left][class*=mint-tips--bounce]:hover::after, [data-mint-tips=left][class*=mint-tips--bounce]:hover::before { -webkit-transform: translate(-100%, -50%) scale(1); transform: translate(-100%, -50%) scale(1) } [data-mint-tips=bottom][class*=mint-tips--bounce]:hover::after, [data-mint-tips=bottom][class*=mint-tips--bounce]:hover::before { -webkit-transform: translate(-50%, 100%) scale(1); transform: translate(-50%, 100%) scale(1) } [data-mint-tips=right][class*=mint-tips--bounce]:hover::after, [data-mint-tips=right][class*=mint-tips--bounce]:hover::before { -webkit-transform: translate(100%, -50%) scale(1); transform: translate(100%, -50%) scale(1) } .mint-tips--bounce-in::after, .mint-tips--bounce-in::before { -webkit-transform: translate(-50%, -100%) scale(.8); transform: translate(-50%, -100%) scale(.8) } [data-mint-tips=left].mint-tips--bounce-in::after, [data-mint-tips=left].mint-tips--bounce-in::before { -webkit-transform: translate(-100%, -50%) scale(.8); transform: translate(-100%, -50%) scale(.8) } [data-mint-tips=bottom].mint-tips--bounce-in::after, [data-mint-tips=bottom].mint-tips--bounce-in::before { -webkit-transform: translate(-50%, 100%) scale(.8); transform: translate(-50%, 100%) scale(.8) } [data-mint-tips=right].mint-tips--bounce-in::after, [data-mint-tips=right].mint-tips--bounce-in::before { -webkit-transform: translate(100%, -50%) scale(.8); transform: translate(100%, -50%) scale(.8) } .mint-tips--bounce-out::after, .mint-tips--bounce-out::before { -webkit-transform: translate(-50%, -100%) scale(1.1); transform: translate(-50%, -100%) scale(1.1) } [data-mint-tips=left].mint-tips--bounce-out::after, [data-mint-tips=left].mint-tips--bounce-out::before { -webkit-transform: translate(-100%, -50%) scale(1.1); transform: translate(-100%, -50%) scale(1.1) } [data-mint-tips=bottom].mint-tips--bounce-out::after, [data-mint-tips=bottom].mint-tips--bounce-out::before { -webkit-transform: translate(-50%, 100%) scale(1.1); transform: translate(-50%, 100%) scale(1.1) } [data-mint-tips=right].mint-tips--bounce-out::after, [data-mint-tips=right].mint-tips--bounce-out::before { -webkit-transform: translate(100%, -50%) scale(1.1); transform: translate(100%, -50%) scale(1.1) }
