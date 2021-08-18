@@ -12,7 +12,9 @@
 <body dir="rtl">
 <div id="header"><img src="img/rr3.jpg" width="185" height="185" alt="جامعة دنقلا" id="img" />
 </div><hr>
-<div id="qaab2">
+  <?php 
+  i?>
+< div  id = "qaab2" >
 <div class="qaab_in">
 <form name="ff" id="admin_form7">
 <center>
